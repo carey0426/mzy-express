@@ -1,9 +1,13 @@
 const express = require('express');
 const cookieParser=require('cookie-parser')
 const app =express();
+//中间件调用,下面这两行代码,实现了给req身上加了一个body属性
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
+//中间件调用,下面这行代码,实现了给req身上加了一个cookies属性
 app.use(cookieParser());
+//中间件调用
+app.use(express.static('public')); 
 app.get('/',(req,res)=>{
     console.log(req.query);
     res.send('hello express')
