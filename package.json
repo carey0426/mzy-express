@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/carey0426/mzy-express/issues"
   },
-  "homepage": "https://github.com/carey0426/mzy-express#readme"
+  "homepage": "https://github.com/carey0426/mzy-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
