@@ -19,6 +19,6 @@
   "homepage": "https://github.com/carey0426/mzy-express#readme",
   "dependencies": {
     "cookie-parser": "^1.4.4",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
